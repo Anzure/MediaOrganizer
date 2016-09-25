@@ -1,2 +1,4 @@
 *.log
 settings.ser
+.settings
+bin
