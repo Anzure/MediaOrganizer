@@ -1,0 +1,25 @@
+.root{
+    -fx-background-color: linear-gradient(#282828, #383838);
+}
+.label{
+    -fx-text-fill: #e8e8e8;
+    -fx-font-size: 11pt;
+}
+.button{
+    -fx-background-color: #AB4642;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 4;
+    -fx-font-size: 13pt;
+}
+.choice-box .label {
+    -fx-text-fill: #282828;
+    -fx-font-size: 10pt;
+}
+.button-blue{
+    -fx-background-color: #7cafc2;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 4;
+}
+#bold-label{
+    -fx-font-weight: bold;
+}
