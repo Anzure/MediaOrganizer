@@ -1,5 +1,5 @@
 # PlexFC
-Plex Format Converter scans for movies in your chosen folder. If it finds something, then the application will move the identified media files and organize it for you. It was originally created for Plex media servers, but you don't need Plex at all to use it.
+Plex Format Converter scans for movies (and TV show episodes) in your chosen folder(s). If it finds something, then the application will move the identified media files and organize it for you. It was originally created for Plex media servers, but you don't need Plex at all to use it.
 
 **Example**
 
