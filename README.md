@@ -12,7 +12,7 @@ Let's say you download this video file: Suicide.Squad.2016.720p.WEB-DL.X264.AC3-
 
 The application will then understand that the video file is a movie and then move it to your chosen movie folder, it will also rename the file and put it in a folder.
 
-Result path: D:\Movies\Suicide Squad (2016)\Suicide Squad (2016).mp4
+Result example path: D:\Movies\Suicide Squad (2016)\Suicide Squad (2016).mp4
 
 **Installation**
 
