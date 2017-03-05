@@ -1,3 +1,6 @@
 *.log
 settings.ser
+.settings
+.classpath
 bin/
+.project
