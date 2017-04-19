@@ -12,7 +12,7 @@ import net.hydrotekz.PlexFC.handlers.ScanHandler;
 
 public class PlexFC extends Application {
 
-	public static double version = 5.0;
+	public static double version = 5.1;
 	public static String[] arguments;
 
 	/*
