@@ -58,6 +58,36 @@ public class MoviesScanner {
 						}
 					} catch (Exception e){}
 				}
+				if (s.toLowerCase().startsWith("ep")){
+					String ep = s.toLowerCase().replaceFirst("ep", "");
+					try {
+						int episode = Integer.parseInt(ep);
+						if (episode >= 1 && episode <= 50){
+							Printer.log("The video file seems to be a episode instead of a movie.");
+							return false;
+						}
+					} catch (Exception ex){
+						if (ep.equalsIgnoreCase("Ep")){
+							Printer.log("The video file seems to be a episode instead of a movie.");
+							return false;
+						}
+					}
+				}
+				if (s.toLowerCase().startsWith("episode")){
+					String ep = s.toLowerCase().replaceFirst("episode", "");
+					try {
+						int episode = Integer.parseInt(ep);
+						if (episode >= 1 && episode <= 50){
+							Printer.log("The video file seems to be a episode instead of a movie.");
+							return false;
+						}
+					} catch (Exception ex){
+						if (ep.equalsIgnoreCase("episode")){
+							Printer.log("The video file seems to be a episode instead of a movie.");
+							return false;
+						}
+					}
+				}
 				// Check year
 				if (i > 0){
 					int yr = Utils.getYear(s);
